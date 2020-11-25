@@ -115,7 +115,7 @@ class Signal(context: Context) {
         var strength = HashMap<String, Int>()
         strength.put("strength", mStrength)
         strength.put("dbm", mDbm)
-        strength.put("dbm", mAsu)
+        strength.put("asu", mAsu)
         mOnUpdate?.onUpdate(strength)
     }
 
