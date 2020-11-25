@@ -241,7 +241,7 @@ class Gps(context: Context) {
 
     fun updateLocation(location: Location) {
         mLocation.put("longitude", location.longitude)
-        mLocation.put("latitude", location.longitude)
+        mLocation.put("latitude", location.latitude)
         mLocation.put("accuracy", location.accuracy.toDouble())
         mLocation.put("altitude", location.altitude)
         mLocation.put("speed", location.speed.toDouble())
